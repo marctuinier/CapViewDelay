@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F6CAD63C2A43765600245D68 /* CapViewDelayApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAD63B2A43765600245D68 /* CapViewDelayApp.swift */; };
+		F6CAD63E2A43765600245D68 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAD63D2A43765600245D68 /* ContentView.swift */; };
+		F6CAD6402A43765700245D68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6CAD63F2A43765700245D68 /* Assets.xcassets */; };
+		F6CAD6432A43765700245D68 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6CAD6422A43765700245D68 /* Preview Assets.xcassets */; };
+		F6CAD64E2A43765700245D68 /* CapViewDelayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAD64D2A43765700245D68 /* CapViewDelayTests.swift */; };
+		F6CAD6582A43765700245D68 /* CapViewDelayUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAD6572A43765700245D68 /* CapViewDelayUITests.swift */; };
+		F6CAD65A2A43765700245D68 /* CapViewDelayUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6CAD6592A43765700245D68 /* CapViewDelayUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F6CAD64A2A43765700245D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6CAD6302A43765600245D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6CAD6372A43765600245D68;
+			remoteInfo = CapViewDelay;
+		};
+		F6CAD6542A43765700245D68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F6CAD6302A43765600245D68 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F6CAD6372A43765600245D68;
+			remoteInfo = CapViewDelay;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F6CAD6382A43765600245D68 /* CapViewDelay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapViewDelay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CAD63B2A43765600245D68 /* CapViewDelayApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapViewDelayApp.swift; sourceTree = "<group>"; };
+		F6CAD63D2A43765600245D68 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F6CAD63F2A43765700245D68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F6CAD6422A43765700245D68 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F6CAD6442A43765700245D68 /* CapViewDelay.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CapViewDelay.entitlements; sourceTree = "<group>"; };
+		F6CAD6492A43765700245D68 /* CapViewDelayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapViewDelayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CAD64D2A43765700245D68 /* CapViewDelayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapViewDelayTests.swift; sourceTree = "<group>"; };
+		F6CAD6532A43765700245D68 /* CapViewDelayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapViewDelayUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6CAD6572A43765700245D68 /* CapViewDelayUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapViewDelayUITests.swift; sourceTree = "<group>"; };
+		F6CAD6592A43765700245D68 /* CapViewDelayUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapViewDelayUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F6CAD6352A43765600245D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CAD6462A43765700245D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CAD6502A43765700245D68 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F6CAD62F2A43765600245D68 = {
+			isa = PBXGroup;
+			children = (
+				F6CAD63A2A43765600245D68 /* CapViewDelay */,
+				F6CAD64C2A43765700245D68 /* CapViewDelayTests */,
+				F6CAD6562A43765700245D68 /* CapViewDelayUITests */,
+				F6CAD6392A43765600245D68 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F6CAD6392A43765600245D68 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F6CAD6382A43765600245D68 /* CapViewDelay.app */,
+				F6CAD6492A43765700245D68 /* CapViewDelayTests.xctest */,
+				F6CAD6532A43765700245D68 /* CapViewDelayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F6CAD63A2A43765600245D68 /* CapViewDelay */ = {
+			isa = PBXGroup;
+			children = (
+				F6CAD63B2A43765600245D68 /* CapViewDelayApp.swift */,
+				F6CAD63D2A43765600245D68 /* ContentView.swift */,
+				F6CAD63F2A43765700245D68 /* Assets.xcassets */,
+				F6CAD6442A43765700245D68 /* CapViewDelay.entitlements */,
+				F6CAD6412A43765700245D68 /* Preview Content */,
+			);
+			path = CapViewDelay;
+			sourceTree = "<group>";
+		};
+		F6CAD6412A43765700245D68 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F6CAD6422A43765700245D68 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F6CAD64C2A43765700245D68 /* CapViewDelayTests */ = {
+			isa = PBXGroup;
+			children = (
+				F6CAD64D2A43765700245D68 /* CapViewDelayTests.swift */,
+			);
+			path = CapViewDelayTests;
+			sourceTree = "<group>";
+		};
+		F6CAD6562A43765700245D68 /* CapViewDelayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F6CAD6572A43765700245D68 /* CapViewDelayUITests.swift */,
+				F6CAD6592A43765700245D68 /* CapViewDelayUITestsLaunchTests.swift */,
+			);
+			path = CapViewDelayUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F6CAD6372A43765600245D68 /* CapViewDelay */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6CAD65D2A43765700245D68 /* Build configuration list for PBXNativeTarget "CapViewDelay" */;
+			buildPhases = (
+				F6CAD6342A43765600245D68 /* Sources */,
+				F6CAD6352A43765600245D68 /* Frameworks */,
+				F6CAD6362A43765600245D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CapViewDelay;
+			productName = CapViewDelay;
+			productReference = F6CAD6382A43765600245D68 /* CapViewDelay.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F6CAD6482A43765700245D68 /* CapViewDelayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6CAD6602A43765700245D68 /* Build configuration list for PBXNativeTarget "CapViewDelayTests" */;
+			buildPhases = (
+				F6CAD6452A43765700245D68 /* Sources */,
+				F6CAD6462A43765700245D68 /* Frameworks */,
+				F6CAD6472A43765700245D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6CAD64B2A43765700245D68 /* PBXTargetDependency */,
+			);
+			name = CapViewDelayTests;
+			productName = CapViewDelayTests;
+			productReference = F6CAD6492A43765700245D68 /* CapViewDelayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F6CAD6522A43765700245D68 /* CapViewDelayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F6CAD6632A43765700245D68 /* Build configuration list for PBXNativeTarget "CapViewDelayUITests" */;
+			buildPhases = (
+				F6CAD64F2A43765700245D68 /* Sources */,
+				F6CAD6502A43765700245D68 /* Frameworks */,
+				F6CAD6512A43765700245D68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6CAD6552A43765700245D68 /* PBXTargetDependency */,
+			);
+			name = CapViewDelayUITests;
+			productName = CapViewDelayUITests;
+			productReference = F6CAD6532A43765700245D68 /* CapViewDelayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F6CAD6302A43765600245D68 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F6CAD6372A43765600245D68 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F6CAD6482A43765700245D68 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F6CAD6372A43765600245D68;
+					};
+					F6CAD6522A43765700245D68 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F6CAD6372A43765600245D68;
+					};
+				};
+			};
+			buildConfigurationList = F6CAD6332A43765600245D68 /* Build configuration list for PBXProject "CapViewDelay" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F6CAD62F2A43765600245D68;
+			productRefGroup = F6CAD6392A43765600245D68 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F6CAD6372A43765600245D68 /* CapViewDelay */,
+				F6CAD6482A43765700245D68 /* CapViewDelayTests */,
+				F6CAD6522A43765700245D68 /* CapViewDelayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F6CAD6362A43765600245D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CAD6432A43765700245D68 /* Preview Assets.xcassets in Resources */,
+				F6CAD6402A43765700245D68 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CAD6472A43765700245D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CAD6512A43765700245D68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F6CAD6342A43765600245D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CAD63E2A43765600245D68 /* ContentView.swift in Sources */,
+				F6CAD63C2A43765600245D68 /* CapViewDelayApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CAD6452A43765700245D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CAD64E2A43765700245D68 /* CapViewDelayTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6CAD64F2A43765700245D68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F6CAD65A2A43765700245D68 /* CapViewDelayUITestsLaunchTests.swift in Sources */,
+				F6CAD6582A43765700245D68 /* CapViewDelayUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F6CAD64B2A43765700245D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6CAD6372A43765600245D68 /* CapViewDelay */;
+			targetProxy = F6CAD64A2A43765700245D68 /* PBXContainerItemProxy */;
+		};
+		F6CAD6552A43765700245D68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F6CAD6372A43765600245D68 /* CapViewDelay */;
+			targetProxy = F6CAD6542A43765700245D68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F6CAD65B2A43765700245D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F6CAD65C2A43765700245D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		F6CAD65E2A43765700245D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CapViewDelay/CapViewDelay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CapViewDelay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarcTuinier.CapViewDelay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F6CAD65F2A43765700245D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CapViewDelay/CapViewDelay.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"CapViewDelay/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarcTuinier.CapViewDelay;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F6CAD6612A43765700245D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarcTuinier.CapViewDelayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapViewDelay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CapViewDelay";
+			};
+			name = Debug;
+		};
+		F6CAD6622A43765700245D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.3;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarcTuinier.CapViewDelayTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CapViewDelay.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/CapViewDelay";
+			};
+			name = Release;
+		};
+		F6CAD6642A43765700245D68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarcTuinier.CapViewDelayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CapViewDelay;
+			};
+			name = Debug;
+		};
+		F6CAD6652A43765700245D68 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = MarcTuinier.CapViewDelayUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = CapViewDelay;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F6CAD6332A43765600245D68 /* Build configuration list for PBXProject "CapViewDelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CAD65B2A43765700245D68 /* Debug */,
+				F6CAD65C2A43765700245D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6CAD65D2A43765700245D68 /* Build configuration list for PBXNativeTarget "CapViewDelay" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CAD65E2A43765700245D68 /* Debug */,
+				F6CAD65F2A43765700245D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6CAD6602A43765700245D68 /* Build configuration list for PBXNativeTarget "CapViewDelayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CAD6612A43765700245D68 /* Debug */,
+				F6CAD6622A43765700245D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F6CAD6632A43765700245D68 /* Build configuration list for PBXNativeTarget "CapViewDelayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F6CAD6642A43765700245D68 /* Debug */,
+				F6CAD6652A43765700245D68 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F6CAD6302A43765600245D68 /* Project object */;
+}
