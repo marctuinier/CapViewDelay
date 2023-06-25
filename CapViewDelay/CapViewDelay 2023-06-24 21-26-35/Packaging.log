@@ -1,0 +1,109 @@
+2023-06-24 19:26:20 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x2f70dd7d0; archive(resolved)="<IDEArchive: 0x60000d70d380>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSignedMac: 0x60000b1e7eb0>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600006cbf780; teamID='D35JB5CDG2', teamName='Nuwa Pen B.V.', teamType='Company', username='marctuinier@gmail.com', isFreeProvisioningTeam='0'>">
+	Chain (11, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x2f70dd7d0; archive = "<IDEArchive: 0x60000d70d380>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x60000b1e7eb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006cbf780; teamID='D35JB5CDG2', teamName='Nuwa Pen B.V.', teamType='Company', username='marctuinier@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x2f70dd540; archive = "<IDEArchive: 0x60000d70d380>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x60000b1e7eb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006cbf780; teamID='D35JB5CDG2', teamName='Nuwa Pen B.V.', teamType='Company', username='marctuinier@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x10a38c700; archive = "<IDEArchive: 0x60000d70d380>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x60000b1e7eb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006cbf780; teamID='D35JB5CDG2', teamName='Nuwa Pen B.V.', teamType='Company', username='marctuinier@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x16ab5b760; archive = "<IDEArchive: 0x60000d70d380>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x60000b1e7eb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006cbf780; teamID='D35JB5CDG2', teamName='Nuwa Pen B.V.', teamType='Company', username='marctuinier@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2e296f650; archive = "<IDEArchive: 0x60000d70d380>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x60000b1e7eb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006cbf780; teamID='D35JB5CDG2', teamName='Nuwa Pen B.V.', teamType='Company', username='marctuinier@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2fce20660; archive = "<IDEArchive: 0x60000d70d380>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x60000b1e7eb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006cbf780; teamID='D35JB5CDG2', teamName='Nuwa Pen B.V.', teamType='Company', username='marctuinier@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2c003e780; archive = "<IDEArchive: 0x60000d70d380>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x60000b1e7eb0>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600006cbf780; teamID='D35JB5CDG2', teamName='Nuwa Pen B.V.', teamType='Company', username='marctuinier@gmail.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2f70be1b0; archive = "<IDEArchive: 0x60000d70d380>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x60000b1e7eb0>", team="(null)">
+	<IDEDistributionContext: 0x2f70c0d30; archive = "<IDEArchive: 0x60000d70d380>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x60000b1e7eb0>", team="(null)">
+	<IDEDistributionContext: 0x2ffc51550; archive = "<IDEArchive: 0x60000d70d380>", distributionMethod="<IDEDistributionMethodDevelopmentSignedMac: 0x60000b1e7eb0>", team="(null)">
+	<IDEDistributionContext: 0x2f70efb10; archive = "<IDEArchive: 0x60000d70d380>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x2f70dd7d0>
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionCreateDestRootStep
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionCopyItemStep
+2023-06-24 19:26:20 +0000  Running /usr/bin/ditto '-V' '/Users/marctuinier/Library/Developer/Xcode/Archives/2023-06-24/CapViewDelay 6-24-23, 9.19 PM.xcarchive/Products/Applications/CapViewDelay.app' '/var/folders/75/5pqz0knj74q6z8n5fbt9496w0000gn/T/XcodeDistPipeline.~~~65KX5L/Root/Applications/CapViewDelay.app'
+2023-06-24 19:26:20 +0000  >>> Copying /Users/marctuinier/Library/Developer/Xcode/Archives/2023-06-24/CapViewDelay 6-24-23, 9.19 PM.xcarchive/Products/Applications/CapViewDelay.app 
+2023-06-24 19:26:20 +0000  copying file ./Contents/_CodeSignature/CodeResources ... 
+2023-06-24 19:26:20 +0000  2200 bytes for ./Contents/_CodeSignature/CodeResources
+2023-06-24 19:26:20 +0000  copying file ./Contents/MacOS/CapViewDelay ... 
+2023-06-24 19:26:20 +0000  230224 bytes for ./Contents/MacOS/CapViewDelay
+2023-06-24 19:26:20 +0000  copying file ./Contents/Info.plist ... 
+2023-06-24 19:26:20 +0000  1286 bytes for ./Contents/Info.plist
+2023-06-24 19:26:20 +0000  copying file ./Contents/PkgInfo ... 
+2023-06-24 19:26:20 +0000  8 bytes for ./Contents/PkgInfo
+2023-06-24 19:26:20 +0000  /usr/bin/ditto exited with 0
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionEmbedProfileStep
+2023-06-24 19:26:20 +0000  Skipping profile for item: <IDEDistributionItem: 0x60000d6e0000; bundleID='MarcTuinier.CapViewDelay', path='<DVTFilePath:0x600009a87f00:'/Users/marctuinier/Library/Developer/Xcode/Archives/2023-06-24/CapViewDelay 6-24-23, 9.19 PM.xcarchive/Products/Applications/CapViewDelay.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000193e2d00; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+    "com.apple.security.temporary-exception.shared-preference.read-write" =     (
+        "com.apple.screencaptureui"
+    );
+}', teamID='(null)', identifier='MarcTuinier.CapViewDelay', executablePath='<DVTFilePath:0x600009a876b0:'/Users/marctuinier/Library/Developer/Xcode/Archives/2023-06-24/CapViewDelay 6-24-23, 9.19 PM.xcarchive/Products/Applications/CapViewDelay.app/Contents/MacOS/CapViewDelay'>', hardenedRuntime='0'>'>
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionInfoPlistStep
+2023-06-24 19:26:20 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2023-06-24 19:26:20 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-06-24 19:26:20 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionSymbolsStep
+2023-06-24 19:26:20 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionAppThinningStep
+2023-06-24 19:26:20 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionArchThinningStep
+2023-06-24 19:26:20 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/75/5pqz0knj74q6z8n5fbt9496w0000gn/T/XcodeDistPipeline.~~~65KX5L/Root/Applications/CapViewDelay.app/Contents/MacOS/CapViewDelay' '-verify_arch' 'arm64e'
+2023-06-24 19:26:20 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-06-24 19:26:20 +0000  Skipping architecture thinning for item "CapViewDelay" because arch "arm64e" wasn't found
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionODRStep
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionStripXattrsStep
+2023-06-24 19:26:20 +0000  Running /usr/bin/xattr '-crs' '/var/folders/75/5pqz0knj74q6z8n5fbt9496w0000gn/T/XcodeDistPipeline.~~~65KX5L/Root/Applications/CapViewDelay.app'
+2023-06-24 19:26:20 +0000  /usr/bin/xattr exited with 0
+2023-06-24 19:26:20 +0000  Processing step: IDEDistributionCodesignStep
+2023-06-24 19:26:20 +0000  Entitlements for <IDEDistributionItem: 0x60000d6e0000; bundleID='MarcTuinier.CapViewDelay', path='<DVTFilePath:0x600009a87f00:'/Users/marctuinier/Library/Developer/Xcode/Archives/2023-06-24/CapViewDelay 6-24-23, 9.19 PM.xcarchive/Products/Applications/CapViewDelay.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000193e2d00; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+    "com.apple.security.temporary-exception.shared-preference.read-write" =     (
+        "com.apple.screencaptureui"
+    );
+}', teamID='(null)', identifier='MarcTuinier.CapViewDelay', executablePath='<DVTFilePath:0x600009a876b0:'/Users/marctuinier/Library/Developer/Xcode/Archives/2023-06-24/CapViewDelay 6-24-23, 9.19 PM.xcarchive/Products/Applications/CapViewDelay.app/Contents/MacOS/CapViewDelay'>', hardenedRuntime='0'>'>: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+    "com.apple.security.temporary-exception.shared-preference.read-write" =     (
+        "com.apple.screencaptureui"
+    );
+}
+2023-06-24 19:26:20 +0000  Entitlements for <IDEDistributionItem: 0x60000d6e0000; bundleID='MarcTuinier.CapViewDelay', path='<DVTFilePath:0x600009a87f00:'/Users/marctuinier/Library/Developer/Xcode/Archives/2023-06-24/CapViewDelay 6-24-23, 9.19 PM.xcarchive/Products/Applications/CapViewDelay.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000193e2d00; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+    "com.apple.security.temporary-exception.shared-preference.read-write" =     (
+        "com.apple.screencaptureui"
+    );
+}', teamID='(null)', identifier='MarcTuinier.CapViewDelay', executablePath='<DVTFilePath:0x600009a876b0:'/Users/marctuinier/Library/Developer/Xcode/Archives/2023-06-24/CapViewDelay 6-24-23, 9.19 PM.xcarchive/Products/Applications/CapViewDelay.app/Contents/MacOS/CapViewDelay'>', hardenedRuntime='0'>'> are: {
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+    "com.apple.security.temporary-exception.shared-preference.read-write" =     (
+        "com.apple.screencaptureui"
+    );
+}
+2023-06-24 19:26:20 +0000  Writing entitlements for <IDEDistributionItem: 0x60000d6e0000; bundleID='MarcTuinier.CapViewDelay', path='<DVTFilePath:0x600009a87f00:'/Users/marctuinier/Library/Developer/Xcode/Archives/2023-06-24/CapViewDelay 6-24-23, 9.19 PM.xcarchive/Products/Applications/CapViewDelay.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000193e2d00; isSigned='1', isAdHocSigned='1', signingCertificate='(null)', entitlements='{
+    "com.apple.security.app-sandbox" = 1;
+    "com.apple.security.files.user-selected.read-only" = 1;
+    "com.apple.security.network.client" = 1;
+    "com.apple.security.temporary-exception.shared-preference.read-write" =     (
+        "com.apple.screencaptureui"
+    );
+}', teamID='(null)', identifier='MarcTuinier.CapViewDelay', executablePath='<DVTFilePath:0x600009a876b0:'/Users/marctuinier/Library/Developer/Xcode/Archives/2023-06-24/CapViewDelay 6-24-23, 9.19 PM.xcarchive/Products/Applications/CapViewDelay.app/Contents/MacOS/CapViewDelay'>', hardenedRuntime='0'>'> to: /var/folders/75/5pqz0knj74q6z8n5fbt9496w0000gn/T/XcodeDistPipeline.~~~65KX5L/entitlements~~~pR9dAl
+2023-06-24 19:26:20 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'D9DD6F35ABF728650F6198A42DB45CC784AC025B' '--entitlements' '/var/folders/75/5pqz0knj74q6z8n5fbt9496w0000gn/T/XcodeDistPipeline.~~~65KX5L/entitlements~~~pR9dAl' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/75/5pqz0knj74q6z8n5fbt9496w0000gn/T/XcodeDistPipeline.~~~65KX5L/Root/Applications/CapViewDelay.app'
+2023-06-24 19:26:20 +0000  /var/folders/75/5pqz0knj74q6z8n5fbt9496w0000gn/T/XcodeDistPipeline.~~~65KX5L/Root/Applications/CapViewDelay.app: replacing existing signature
+2023-06-24 19:26:27 +0000  /var/folders/75/5pqz0knj74q6z8n5fbt9496w0000gn/T/XcodeDistPipeline.~~~65KX5L/Root/Applications/CapViewDelay.app: signed app bundle with Mach-O universal (x86_64 arm64) [MarcTuinier.CapViewDelay]
+2023-06-24 19:26:27 +0000  /usr/bin/codesign exited with 0
+2023-06-24 19:26:27 +0000  Processing step: IDEDistributionZipODRItemStep
+2023-06-24 19:26:27 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-06-24 19:26:27 +0000  Processing step: IDEDistributionSkipPackagingStep
+2023-06-24 19:26:27 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2023-06-24 19:26:27 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-06-24 19:26:27 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-06-24 19:26:27 +0000  IDEDistributionItem init <DVTFilePath:0x600009a44ee0:'/var/folders/75/5pqz0knj74q6z8n5fbt9496w0000gn/T/XcodeDistPipeline.~~~65KX5L/Root/Applications/CapViewDelay.app'>
+2023-06-24 19:26:27 +0000  [OPTIONAL] Didn't find embedded provisioning profile for <DVTFilePath:0x600009a44ee0:'/var/folders/75/5pqz0knj74q6z8n5fbt9496w0000gn/T/XcodeDistPipeline.~~~65KX5L/Root/Applications/CapViewDelay.app'>: Error Domain=NSCocoaErrorDomain Code=4 "No file at <DVTFilePath:0x600009d5cc80:'/var/folders/75/5pqz0knj74q6z8n5fbt9496w0000gn/T/XcodeDistPipeline.~~~65KX5L/Root/Applications/CapViewDelay.app/Contents/embedded.provisionprofile'>" UserInfo={NSLocalizedDescription=No file at <DVTFilePath:0x600009d5cc80:'/var/folders/75/5pqz0knj74q6z8n5fbt9496w0000gn/T/XcodeDistPipeline.~~~65KX5L/Root/Applications/CapViewDelay.app/Contents/embedded.provisionprofile'>}
+2023-06-24 19:26:27 +0000  Processing step: IDEDistributionCreateManifestStep
+2023-06-24 19:26:27 +0000  Skipping step: IDEDistributionCreateManifestStep because it said so
