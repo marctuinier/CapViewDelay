@@ -10,7 +10,7 @@ By default, when you take a screenshot on macOS, a small preview appears in the 
 
 ## Installation
 
-1.  Go to the [**Releases Page**](https://github.com/your-username/CapViewDelay/releases).
+1.  Go to the [**Releases Page**](https://github.com/marctuinier/CapViewDelay/releases).
 2.  Download the latest `.dmg` file.
 3.  Open the DMG, and drag the **CapViewDelay.app** icon into your **Applications** folder.
 
