@@ -14,7 +14,7 @@ By default, when you take a screenshot on macOS, a small preview appears in the 
 2.  Download the latest `.dmg` file.
 3.  Open the DMG, and drag the **CapViewDelay.app** icon into your **Applications** folder.
 
-*Note: Since this app is not from the App Store, the first time you open it, you may need to right-click the app icon and select "Open" from the menu.*
+*Note: Since this app is not from the App Store, the first time you open it, you may need to right-click the app icon and select "Open" from the menu. If this doesn't work go to Apple icon > System Settings > Privacy > Security > Open Anyway* 
 
 ## How to Use
 
