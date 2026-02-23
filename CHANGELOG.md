@@ -7,6 +7,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.1] - 2026-02-23
+
+### Fixed
+
+- "Set Duration" button now applies the change on the first click instead of requiring two presses.
+
 ### Changed
 
 - Improved README with badges, build instructions, and system requirements.
@@ -15,6 +21,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 
 - MIT `LICENSE` file.
+- `CHANGELOG.md` following the Keep a Changelog format.
 
 ### Removed
 
@@ -31,5 +38,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - README with installation and usage instructions.
 - `.gitignore` for Xcode and macOS artifacts.
 
-[unreleased]: https://github.com/marctuinier/CapViewDelay/compare/v1.0.0...HEAD
+[unreleased]: https://github.com/marctuinier/CapViewDelay/compare/v1.0.1...HEAD
+[1.0.1]: https://github.com/marctuinier/CapViewDelay/compare/v1.0.0...v1.0.1
 [1.0.0]: https://github.com/marctuinier/CapViewDelay/releases/tag/v1.0.0

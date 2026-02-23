@@ -48,7 +48,7 @@ struct ContentView: View {
         
         do {
             try process.run()
-            print("Executed the command successfully.")
+            process.waitUntilExit()
         } catch {
             print("An error occurred: \(error)")
         }
